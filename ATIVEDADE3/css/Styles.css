@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    background-color: aliceblue;
+}
+
+li, a {
+    margin: 18px;
+    display:inline-block;
+    justify-content: space-between;
+    font-size: 24px;
+    color:black;
+    text-decoration: none;
+}
+
+header{
+    width: 660px;
+    height: 100px;  
+    position: absolute;
+   left: 33%;
+   top: 85%;
+      margin: auto;
+      display: flex;
+      padding: 0;
+      margin: 0;
+      align-items: space-between;
+      text-align: space-between;
+      background-color: aliceblue;
+      border-radius: 50px;
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  .mtvtxt {
+    animation: fadeIn 6s ease-in-out forwards;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 650px;
+    left: 39%;
+  }
+
+  .mtvtxt2 {
+    animation: fadeIn 8s ease-in-out forwards;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 700px;
+    left: 90px;
+  }
+
+.logo {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 37%;
+}
+
+.img1 {
+    animation: fadeIn 2s ease-in-out forwards;
+    overflow: hidden;
+    display: block;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 900px;
+    left: 20px;
+    border-radius: 20px;
+}
+
+.img2 {
+    animation: fadeIn 4s ease-in-out forwards;
+    overflow: hidden;
+    display: block;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 900px;
+    left: 655px;
+    border-radius: 20px;
+}
+
+.img3 {
+    animation: fadeIn 6s ease-in-out forwards;
+    overflow: hidden;
+    display: block;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 900px;
+    left: 1290px;
+    border-radius: 20px;
+}
+
+.txtsinc1 {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 1400px;
+    left: 25%;
+}
+
+.txtsinc2 {
+    padding: 0;
+    margin: 10%;
+    position: absolute;
+    top:1300px;
+    left: 5%;
+}
+
+.txtsinc3 {
+    padding: 0;
+    margin: 10%;
+    position: absolute;
+    top:1450px;
+    left:25%;
+}
+
+.txtsinc4 {
+    padding: 0;
+    margin: 10%;
+    position: absolute;
+    top:1550px;
+    left:5%;
+}
+
+.flag1 {
+    animation: fadeIn 3s ease-in-out forwards;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 1950px;
+    left: 290px;
+}
+
+.flag2 {
+    animation: fadeIn 6s ease-in-out forwards;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 1950px;
+    left: 512px;
+}
+
+.flag3 {
+    animation: fadeIn 9s ease-in-out forwards;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 1950px;
+    left: 725px;
+}
+
+.flag4 {
+    animation: fadeIn 10s ease-in-out forwards;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 1950px;
+    left: 925px;
+
+}
+
+.flag5 {
+    animation: fadeIn 11s ease-in-out forwards;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 1950px;
+    left: 1125px;
+}
+
+.flag6 {
+    animation: fadeIn 12s ease-in-out forwards;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 1950px;
+    left: 1332px;
+}
+
+.flag7 {
+    animation: fadeIn 13s ease-in-out forwards;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 1950px;
+    left: 1550px;
+}
+

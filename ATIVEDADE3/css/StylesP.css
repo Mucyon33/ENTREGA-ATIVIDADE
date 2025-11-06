@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    background-color: aliceblue;
+}
+
+li, a {
+    margin: 18px;
+    display:inline-block;
+    justify-content: space-between;
+    font-size: 24px;
+    color:black;
+    text-decoration: none;
+}
+
+header{
+    width: 660px;
+    height: 100px;  
+    position: absolute;
+   left: 33%;
+   top: 85%;
+      margin: auto;
+      display: flex;
+      padding: 0;
+      margin: 0;
+      align-items: space-between;
+      text-align: space-between;
+      background-color: aliceblue;
+      border-radius: 50px;
+  }
+
+  .logo {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 37%;
+    top: 0px;
+}
+
+.project1 {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 650px;
+    left: 41%;
+}
+
+.head1 {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    width: 1800px;
+    height: 80px;
+    background-color: rgb(130, 190, 89);
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 650px;
+    left: 3.0%;
+}
+
+.body1 {
+    font-size: 24px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    background-color: rgb(233, 232, 202);
+    width:1800px;
+    height: 1200px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    top: 70px;
+}
+

@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    background-color: aliceblue;
+}
+
+.mainimg {
+    padding: 0;
+    margin: 0;
+    
+}
+
+.logo {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 35%;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  .cadastro {
+    box-shadow: 5px 5px 5px 5px rgb(228, 235, 241);
+    animation: fadeIn 2s ease-in-out forwards;
+    top: 90%;
+    left: 35%;
+    position: absolute;
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 50px;
+    width: 660px;
+    height: 700px;
+    max-width: 500px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+
+  .cadastro form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .cadastro label {
+    font-size: 14px;
+  }
+
+  .cadastro input,
+  .cadastro textarea {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .cadastro button {
+    padding: 10px;
+    background: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input.erro, textarea.erro {
+    border-color: red !important;
+}
+
+input.ok, textarea.ok {
+    border-color: green !important;
+}
+
+.mensagem {
+    display: none;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.btn-voltar {
+    display: block;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #666;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -3,7 +3,7 @@ window.addEventListener("DOMContentLoaded", () => {
     const form = document.getElementById("form-cadastro");
     const campos = document.querySelectorAll("#form-cadastro input, #form-cadastro textarea");
     
-    // Criar mensagem dentro do HTML se não existir
+   
     let msg = document.getElementById("mensagem");
     if (!msg) {
         msg = document.createElement("p");
@@ -12,7 +12,7 @@ window.addEventListener("DOMContentLoaded", () => {
         form.appendChild(msg);
     }
 
-    // Máscara telefone
+  
     const telefone = document.getElementById("telefone");
     telefone.addEventListener("input", function () {
         this.value = this.value
@@ -21,7 +21,7 @@ window.addEventListener("DOMContentLoaded", () => {
             .replace(/(\d{5})(\d{4})$/, "$1-$2");
     });
 
-    // Máscara CEP
+
     const cep = document.getElementById("cep");
     cep.addEventListener("input", function () {
         this.value = this.value
@@ -29,7 +29,7 @@ window.addEventListener("DOMContentLoaded", () => {
             .replace(/(\d{5})(\d)/, "$1-$2");
     });
 
-    // Validação dinâmica
+   
     campos.forEach(campo => {
         campo.addEventListener("input", () => {
             if (campo.value.trim() === "") {
@@ -42,7 +42,7 @@ window.addEventListener("DOMContentLoaded", () => {
         });
     });
 
-    // Envio
+
     form.addEventListener("submit", function (e) {
         e.preventDefault();
 
@@ -86,3 +86,4 @@ window.addEventListener("DOMContentLoaded", () => {
     });
 
 });
+

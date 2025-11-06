@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styleC.css">
+    <title>Cadastro - Instituto Vida</title>
+</head>
+<body>
+   <div class="buttoninit">
+   
+   </div>
+
+    <div class="logo">
+        <img src="images/logo.png" alt="">
+    </div>
+
+    <div class="cadastro">
+        <form id="form-cadastro" action="#" method="post" novalidate>
+          <h2>Cadastro</h2>
+      
+          <label for="nome">Nome completo</label>
+          <input
+            type="text"
+            id="nome"
+            name="nome"
+            placeholder="Seu nome completo"
+            autocomplete="name"
+            required
+          />
+      
+          <label for="telefone">Telefone</label>
+          <input
+            type="tel"
+            id="telefone"
+            name="telefone"
+            placeholder="(11) 91234-5678"
+            inputmode="tel"
+            maxlength="16"
+            pattern="^(\+55\s?)?\(?\d{2}\)?\s?\d{4,5}-?\d{4}$"
+            title="Use o formato (11) 91234-5678"
+            autocomplete="tel-national"
+            required
+          />
+      
+          <label for="cep">CEP</label>
+          <input
+            type="text"
+            id="cep"
+            name="cep"
+            placeholder="12345-678"
+            inputmode="numeric"
+            maxlength="9"
+            pattern="^\d{5}-?\d{3}$"
+            title="Use o formato 12345-678"
+            autocomplete="postal-code"
+            required
+          />
+      
+          <label for="nascimento">Data de nascimento</label>
+          <input
+            type="date"
+            id="nascimento"
+            name="nascimento"
+            autocomplete="bday"
+            required
+          />
+      
+          <label for="endereco">Endereço</label>
+          <input
+            type="text"
+            id="endereco"
+            name="endereco"
+            placeholder="Rua, número, complemento, bairro"
+            autocomplete="street-address"
+            required
+          />
+      
+          <label for="experiencia">Experiência</label>
+          <textarea
+            id="experiencia"
+            name="experiencia"
+            placeholder="Descreva brevemente sua experiência"
+            rows="4"
+            required
+          ></textarea>
+      
+          <button type="submit">Enviar</button>
+        </form>
+
+        <a href="Index.html" class="btn-voltar">Voltar ao início</a>
+       
+       <script>
+            const form = document.getElementById('form-cadastro');
+          
+            form.addEventListener('submit', function (e) {
+              e.preventDefault();
+              alert("Cadastro enviado!");
+            });
+          </script>
+      </div>
+
+        <div class="mainimg"> 
+            <img src="images/mainimg.jpg" alt="" width="1920" height="512">
+        </div>
+        <header>    
+
+        </header>
+
+   </div> 
+</body>
+</html>
